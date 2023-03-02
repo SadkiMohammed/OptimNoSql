@@ -40,5 +40,4 @@ public class LoginController {
     public ResponseEntity<List<Login>> getLogin(){
         return ResponseEntity.ok(loginService.getLogin());
     }
-
 }
